@@ -2,7 +2,7 @@ import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import { connectDB } from "./db/connect";
-import authRoutes from "./routes/auth";
+import authRoutes from "./routes/auth.routes";
 
 const PORT = process.env.PORT || 5000;
 
@@ -14,12 +14,12 @@ async function startServer() {
   
     app.use(cors());
     app.use(express.json());
-    app.use("/api",authRoutes);
+    app.use("/api/auth",authRoutes);
    
     
     app.get("/", (req, res) => {  
       res.setHeader("Content-Type", "text/plain");   
-      res.send("Cannot Access DIrectly, Please use /api/login for authentication");
+      res.send("Cannot Access Directly, Please use /api/login for authentication");
     });
 
      app.listen(PORT, () => {

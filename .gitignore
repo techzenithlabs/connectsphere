@@ -1,9 +1,40 @@
-node_modules/
-*.zip
+# =====================
+# OS / Editor
+# =====================
 .DS_Store
-.idea
-notes.md
-.variables.env
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
+Thumbs.db
+.vscode/
+.idea/
 
+# =====================
+# Logs
+# =====================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =====================
+# Environment files
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Dependencies (GLOBAL)
+# =====================
+node_modules/
+
+# =====================
+# Build outputs
+# =====================
+dist/
+build/
+coverage/
+
+# =====================
+# Cache
+# =====================
+.cache/
+.tmp/
