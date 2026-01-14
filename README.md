@@ -1,36 +1,19 @@
+# ConnectSphere
 
----
+CloudAphere is a work-in-progress SaaS project that helps businesses **analyze and prioritize their own leads** so sales teams can focus on the most valuable prospects instead of wasting time on low-quality data.
 
-## 🚧 Current Status
+The platform does **not generate or scrape leads**.  
+Users bring their own data (such as CSV exports or CRM data), and CloudAphere applies rule-based logic and analytics to score leads, suggest follow-up priority, and present clear dashboards.
 
-This project is under **active development**.
+This project is being built **step by step as a learning-first, real-world SaaS application**, with a strong focus on backend fundamentals, business logic, and clean system design.
 
-The current focus is on:
-- building a strong backend foundation
-- understanding Node.js and API design
-- implementing features step by step with proper learning
+### Tech Stack
 
----
+- **Backend:** Node.js + Express (REST APIs)
+- **Frontend:** React (Next.js will be introduced later for production features)
+- **Data:** Database for storing leads and analytics (planned)
+- **Auth:** JWT-based authentication (planned)
 
-## 🔒 Design Principles
+The main goal of this project is to build a **resume-ready and interview-ready SaaS codebase** while strengthening fundamentals in Node.js, React, API design, and overall system thinking.
 
-- Learning > speed
-- Clarity > complexity
-- Business logic first
-- No hit-and-trial development
-- Resume & interview ready codebase
-
----
-
-## 📌 Future Enhancements (Optional)
-
-- CRM integrations (user-authorized)
-- Advanced analytics
-- AI-assisted scoring explanations
-- Multi-workspace support
-
----
-
-## 🧑‍💻 Author
-
-Built as a self-driven SaaS project to strengthen full-stack and system-design skills using real-world use cases.
+🚧 Project is under active development.
