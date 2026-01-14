@@ -1,5 +1,10 @@
+import HeroSection from '../../components/home/HeroSection';
+import '../../styles/HomePage.css';
+
 export default function HomePage(){
     return (
-        <div><h1>Welcome to ConnectSphere</h1></div>
+        <main className='home-page'>
+            <HeroSection/>
+        </main>
     )
 }
