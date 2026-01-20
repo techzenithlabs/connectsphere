@@ -1,11 +1,11 @@
 import HeroSection from '../../components/home/HeroSection';
-import Navbar from '../../layouts/Navbar';
+import Header from '../../components/includes/Header';
 import '../../styles/HomePage.css';
 
 export default function HomePage(){
     return (
         <main className='home-page'>
-            <Navbar/>
+            <Header/>
             <HeroSection/>
         </main>
     )
